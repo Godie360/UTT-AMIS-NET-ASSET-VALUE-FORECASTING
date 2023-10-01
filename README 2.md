@@ -27,15 +27,15 @@ pip install -r requirements.txt
 
 The data sources used in the project and provide details are from UTT AMIS Performance Funds
 
--   **Data Source** :UTT AMIS Performance Funds
-    -   Location: [URL]
-    -   Format: CSV
-    -   Permissions: Access granted under [(Tanzania Data Lab)]
+- **Data Source** :UTT AMIS Performance Funds
+  - Location: [URL]
+  - Format: CSV
+  - Permissions: Access granted under [(Tanzania Data Lab)]
 
 ### Data Preprocessing
 
--   Data cleaning to remove outliers and errors.
--   Feature engineering to create relevant variables.
+- Data cleaning to remove outliers and errors.
+- Feature engineering to create relevant variables.
 
 ## METHODOLOGY
 
@@ -43,6 +43,6 @@ Modethodology used is CRISP (Cross Industry Standard Process )
 
 ### FORECASTING METHODOLOGY
 
--   We used a time series forecasting approach, specifically the **Facebook Prophet** model, to predict net assets value.
--   The Facebook Prophet model was trained on historical net asset data and tuned using grid search for optimal hyperparameters.
--   Additionally, we experimented with a machine learning approach, such as a XGBoost, to compare performance.
+- We used a time series forecasting approach, specifically the **Facebook Prophet** model, to predict net assets value.
+- The Facebook Prophet model was trained on historical net asset data and tuned using grid search for optimal hyperparameters.
+- Additionally, we experimented with a machine learning approach, such as a XGBoost, to compare performance.
